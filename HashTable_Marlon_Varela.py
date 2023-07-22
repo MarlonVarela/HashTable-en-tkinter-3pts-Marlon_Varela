@@ -1,3 +1,5 @@
+#Disculpe inge, pero no entendi muy bien como resolver esta actividad, hice dos intentos pero creo que no es lo que pidió.
+
 import tkinter as tk
 from tkinter import messagebox
 
@@ -25,19 +27,19 @@ root.title("HashTable en Tkinter")
 root.geometry("280x260")
 HashTable = {}
 
-label1 = tk.Label(root, text="Ingrese los datos que se le piden")
+label1 = tk.Label(root, text = "Ingrese los datos que se le piden")
 label1.pack()
 
 labelinv = tk.Label(root, text=" ")
 labelinv.pack()
 
-label_nombre = tk.Label(root, text="Nombre:")
+label_nombre = tk.Label(root, text = "Nombre:")
 label_nombre.pack()
 
-label_edad = tk.Label(root, text="Edad:")
+label_edad = tk.Label(root, text = "Edad:")
 label_edad.pack()
 
-label_ciudad = tk.Label(root, text="Ciudad:")
+label_ciudad = tk.Label(root, text = "Ciudad:")
 label_ciudad.pack()
 
 entry_nombre = tk.Entry(root)
